@@ -1,0 +1,10 @@
+{% extends "layouts/app.twig" %}
+
+{% block title %}
+    Home
+{% endblock title %}
+
+{% block content %}
+<p>This is Home</p>
+<a href={{path_for("users.list")}}>go to users</a>
+{% endblock content %}
